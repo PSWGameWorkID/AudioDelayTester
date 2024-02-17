@@ -41,7 +41,7 @@ Not much, just most basic feature:
 ### Steps
 - Clone the repo
 ```shell
-git clone https://github.com/EmiyaSyahriel/AudioDelayTester
+git clone https://github.com/PSWGameWorkID/AudioDelayTester
 ```
 - Open the repo in Android Studio
 - Wait for the project configuration and index building steps
