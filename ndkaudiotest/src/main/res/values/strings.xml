@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Audio Delay Tester</string>
+    <string name="measuring_rule">
+        Adjust the thick vertical line (labeled as Music Delay) with the moving dotted line
+        where the snare drum in the music is hit, and the thin vertical line where the tambourine
+        hit effect is heard (labeled as Effect Delay). Result delay is average of both delays.
+    </string>
+    <string name="music_hit_delay">Music Delay</string>
+    <string name="hit_effect_delay">Effect Delay</string>
+    <string name="final_delay">Result Delay</string>
+    <string name="ms">%dms</string>
+
+    <string name="title_backend">Audio Backend</string>
+    <string name="backend_opensl_es">OpenSL ES (C++)</string>
+    <string name="backend_aaudio">AAudio (C++)</string>
+    <string name="backend_mediaplayer">MediaPlayer &amp; SoundPool (Android Runtime)</string>
+    <string name="err_unknown_backend">Error: Unknown Backend</string>
+</resources>

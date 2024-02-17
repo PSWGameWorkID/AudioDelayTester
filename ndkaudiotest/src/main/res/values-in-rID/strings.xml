@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Tes Kelambatan Audio</string>
+    <string name="measuring_rule">
+        Samakan garis tebal (dilabeli Kelambatan Musik) dengan garis putus-putus ketika snare drum
+        terdengar, dan samakan garis tipis dengan garis putus-putus dengan ketika suara tamborin
+        terdengar (dilabeli Kelambatan Efek), hasil akhir adalah nilai tengah kedua nilai kelambatan.
+    </string>
+    <string name="music_hit_delay">Kelambatan Musik</string>
+    <string name="hit_effect_delay">Kelambatan Efek</string>
+    <string name="final_delay">Hasil Akhir</string>
+    <string name="ms">%d mdet</string>
+
+    <string name="title_backend">Pilih Dasaran Pemutar Suara</string>
+    <string name="backend_opensl_es">OpenSL ES (C++)</string>
+    <string name="backend_aaudio">AAudio (C++)</string>
+    <string name="backend_mediaplayer">MediaPlayer (Android Runtime)</string>
+    <string name="err_unknown_backend">Kesalahan: Dasar Pemutar Tidak Dikenal</string>
+</resources>

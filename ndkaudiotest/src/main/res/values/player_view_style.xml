@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PlayerView">
+        <attr name="thickLineWidth" format="dimension"/>
+        <attr name="thinLineWidth" format="dimension"/>
+        <attr name="zeroLineWidth" format="dimension"/>
+        <attr name="dottedLineWidth" format="dimension"/>
+        <attr name="dottedLineSeparation" format="dimension"/>
+        <attr name="dottedLineColor" format="color"/>
+        <attr name="thickLineColor" format="color"/>
+        <attr name="thinLineColor" format="color"/>
+        <attr name="zeroLineColor" format="color"/>
+    </declare-styleable>
+</resources>

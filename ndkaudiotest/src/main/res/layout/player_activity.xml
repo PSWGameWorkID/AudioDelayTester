@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="@string/measuring_rule" />
+
+    <id.psw.ndkaudiotest.views.PlayerView
+        android:id="@+id/player_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="?android:attr/colorBackground"
+        app:dottedLineColor="@android:color/primary_text_dark"
+        app:dottedLineSeparation="5dp"
+        app:dottedLineWidth="5dp"
+        app:thickLineColor="?android:attr/colorControlActivated"
+        app:thickLineWidth="8dp"
+        app:thinLineColor="?android:attr/colorFocusedHighlight"
+        app:thinLineWidth="3dp"
+        app:zeroLineColor="?android:attr/colorPressedHighlight"
+        app:zeroLineWidth="20sp" />
+
+    <id.psw.ndkaudiotest.views.DelayAdjustView
+        android:id="@+id/delay_adjust_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <id.psw.ndkaudiotest.views.DelayAdjustView
+        android:id="@+id/delay_adjust_effect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/final_delay" />
+
+        <TextView
+            android:id="@+id/delay_adjust_final"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:gravity="center"
+            android:text="0ms"
+            android:textColor="?android:attr/actionMenuTextColor"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+</LinearLayout>
